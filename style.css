@@ -253,6 +253,7 @@ justify-content: center ;
     text-decoration: none;
     color: rgb(0, 222, 252);
     width: fit-content;
+    background-color: transparent;
 }
 .contact__btn:hover{
     transition: 0.5s ease;
@@ -270,7 +271,7 @@ form input, form textarea{
     background: #4554627a;
     padding: 15px;
     margin: 15px 0;
-   
+
     font-size: 18px;
     border: 6px;
 }
