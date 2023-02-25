@@ -45,6 +45,12 @@ nav{
     margin-top: 5%;
     line-height: 100px;
 }
+.header-text--2{
+    display:none;
+}
+.nav-mobile{
+    display: none;
+}
 .header-text h1{
    
     font-size: 150px;
@@ -294,3 +300,58 @@ footer{
     font-weight: 300;
     color: aliceblue;
 }
+
+
+
+/************************************* media queries *************************/
+
+
+/************************************* Hero Section *************************/
+@media only screen and  (max-width: 600px){
+    header{
+       background-image: none; 
+       background-color: #1e2a46;
+    }
+    
+    .nav-desktop{
+      display: none;
+    }
+    .header-text{
+        display: none;
+    }
+    .header-text--2{
+        margin-top: 5%;
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .header-text--2 h1{
+       display: none;
+        
+    }
+    .header-text--2  span{
+        
+    }
+    .header-text--2 .img-name{
+      display: block;
+      
+    }
+    .header-text--2 .img-name h2{
+    
+    }
+    .header-text--2 .img-name img{
+        
+    }
+}
+/************************************* About Section *************************/
+/* @media only screen and  (max-width: 600px){
+    
+} */
+/************************************* portfolio Section *************************/
+/* @media only screen and  (max-width: 600px){
+    
+} */
+/************************************* Contact Section *************************/
+/* @media only screen and  (max-width: 600px){
+    
+} */
