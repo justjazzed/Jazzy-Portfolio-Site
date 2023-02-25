@@ -48,8 +48,9 @@ nav{
 .header-text--2{
     display:none;
 }
-.nav-mobile{
+.mobile-nav{
     display: none;
+    
 }
 .header-text h1{
    
@@ -311,6 +312,7 @@ footer{
     header{
        background-image: none; 
        background-color: #1e2a46;
+       
     }
     
     .nav-desktop{
@@ -319,8 +321,11 @@ footer{
     .header-text{
         display: none;
     }
+    .mobile-nav{
+        display: block;
+    }
     .header-text--2{
-        margin-top: 5%;
+        margin-top: 10%;
         display: block;
         justify-content: center;
         text-align: center;
@@ -329,24 +334,66 @@ footer{
        display: none;
         
     }
-    .header-text--2  span{
-        
+    .header-text--2 h1 span{
+        color: aqua;
     }
     .header-text--2 .img-name{
       display: block;
       
     }
+    .header-text--2 .img-name h2 span{
+        color: aqua;
+    }
     .header-text--2 .img-name h2{
-    
+        margin-top: 10%;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .header-text--2 .img-name h3{
+        color: aquamarine;
     }
     .header-text--2 .img-name img{
-        
+        width: 150px;
+        height: 150px;
     }
 }
 /************************************* About Section *************************/
-/* @media only screen and  (max-width: 600px){
+@media only screen and  (max-width: 600px){
+    .About-me{
+      
+    }
+    .About-me img{
+        margin-top: 20%;
+       margin-left: 3.5%;
+       width: 350px;
+    }
+    .About-me h1{
+        font-size: 35px;
+        margin: auto;
+    }
+    .About-me .cover-about{
+        
+    }
+    .About-me .about-text{
+        margin-top: 14rem;
+       margin-left: 3.5%;
+       width: 350px;
+    }
+    .About-me .about-text p{
+       font-size: 20px;
+    }
     
-} */
+    .about-skills{
+        margin-top: 5%;
+    }
+    
+    .about-skills h3{
+        font-size: 15px;
+    }
+    .about-skills__h3--1{
+       
+    }
+}
 /************************************* portfolio Section *************************/
 /* @media only screen and  (max-width: 600px){
     
