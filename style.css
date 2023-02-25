@@ -7,6 +7,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 header{
+   
     background-image: linear-gradient(rgba(3,4,7,0.48),rgba(5,10,30,0.48)),url(images/saba.jpg);
     height: 100vh;
     background-size: cover;
@@ -34,12 +35,14 @@ nav ul li a{
 
 }
 nav{
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 2% 3%;
     background-color: #4554627a;
 }
+
 .header-text{
     text-align: center;
     margin-top: 5%;
@@ -318,6 +321,7 @@ footer{
         display: none;
     }
     .mobile-nav{
+        position: sticky;
         display: block;
     }
     .header-text--2{
@@ -450,21 +454,21 @@ footer{
     .contact h1{
         font-size: 40px;
     }
-    .contact_left{
+    .contact_left p{
        
-
+        margin: auto;
     }
     
     .contact_left p i{
-    
+       justify-content: center;
         color: aqua;
-        margin-right: 15px;
+        
         font-size: 20px;
     }
     
     .contact-left__icons{
         margin-top: 15px;
-      
+        margin-left: 10%;
     }
     .contact-left__icons a i{
         font-size: 30px;
