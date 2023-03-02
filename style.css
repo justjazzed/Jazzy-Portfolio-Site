@@ -323,7 +323,11 @@ footer{
     .mobile-nav{
         position: sticky;
         display: block;
-    }
+        width: 100%;
+        top: 0;
+        position: fixed;
+        z-index: 1;
+      }
     .header-text--2{
         margin-top: 10%;
         display: block;
@@ -361,6 +365,7 @@ footer{
     .header-text--2 .img-name img{
         width: 200px;
         height: 200px;
+        margin-top: 20%;
     }
 }
 /************************************* About Section *************************/
@@ -376,7 +381,7 @@ footer{
         margin: auto;
     }
     .About-me .cover-about{
-        
+  
     }
     .About-me .about-text{
         margin-top: 14rem;
